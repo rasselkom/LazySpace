@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MarinaBoss</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container  header__container">
+    <span class="header__logo">Домодедово</span>
+    <nav class="nav" title="">
+      <ul class="nav__list list-reset">
+        <li class="nav__item">
+          <a href="#" class="nav__link">Прайс</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Контакты</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">О нас</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Отзывы</a>
+        </li>
+      </ul>
+    </nav>
+
+   <a class="header__phone" href="tel:+79269264551">+7 926 926-45-51</a>
+  </div>
+</header>
+
+    <main class="main">
+
+      <section class="hero">
+  <div class="container hero__container">
+    <ul class="social list-reset">
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+        <img src="img/svg/insta.svg" alt="Инстаграмм" class="sotial__img">
+        </a>
+      </li>
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+        <img src="img/svg/telegram.svg" alt="Телеграмм" class="sotial__img">
+        </a>
+      </li>
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+        <img src="img/svg/vk.svg" alt="В контакте" class="sotial__img">
+        </a>
+      </li>
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+        <img src="img/whatsapp.png" alt="Ватсап" class="sotial__img">
+        </a>
+      </li>
+    </ul>
+    <h1 class="hero__title">Lazer <span>Space</span> </h1>
+    <p class="hero__subtitle">
+      Студия лазерной эпиляции<span> и сахарной восковой депиляции. </span></p>
+    <p class="hero__descr"> Наша команда квалифицированных мастеров ежедневно делают вашу кожу гладкой бережно. Мы работаем на мощнейшем лазерном оборудовании. Проходим подготовку и регулярные повышения квалификации у лучших тренеров. Также разрабатываем авторские техники обучения.</p>
+   <div class="hero__btn">
+    <a href="#" class="hero__link">Онлайн запись</a>
+   </div>
+  </div>
+</section>
+
+      <section class="discount">
+  <div class="container discount__container">
+    <h2 class="discount__title">Дарим <span>СКИДКУ</span> на первый визит!</h2>
+
+    <form class="myForm discount__form" method="POST" action="sendTelegram.php">
+      <input class="discount__input input-reset" name="name" type="text" placeholder="Ваше Имя" >
+      <input class="discount__input input-reset" name="phone" type="tel" placeholder="Ваш Телефон" >
+      <input class="discount__input input-reset discount__input-send" value="Получить скидку" name="butSub" type="submit" >
+    </form>
+    <p class="discount__descr">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</p>
+  </div>
+</section>
+
+      <section class="about">
+  <div class="container">
+    <h2 class="visually-hidden">Секция о предоставлнии услуг</h2>
+    <div class="about__list">
+      <div class="about__item">
+        <div class="about__text">
+          <p class="about__title">Комфорт</p>
+          <p class="about__descr">Мы заботимся о вас и постоянно улучшаем сервис, создавая комфортную обстановку. </p>
+
+          <p class="about__descr">В нашей студии </p>
+          <ul class="about__list-service">
+            <li class="about__item-serice"> одноразовые тапочки для клиентов</li>
+            <li class="about__item-serice">чай/кофе</li>
+            <li class="about__item-serice">онлайн-запись 24/7</li>
+            <li class="about__item-serice">телевидение, wi-fi</li>
+            <li class="about__item-serice">заблаговременное напоминание о визите.</li>
+          </ul>
+        </div>
+        <div class="swiper__border">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/master.png" alt="Наши мастера" class="swiper__img">
+               </div>
+               <div class="swiper-slide">
+                <img src="img/master.png" alt="Наши мастера" class="swiper__img">
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="about__item">
+        <div class="swiper__border">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/master.png" alt="Наши мастера" class="swiper__img">
+               </div>
+               <div class="swiper-slide">
+                <img src="img/master.png" alt="Наши мастера" class="swiper__img">
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="about__text">
+          <p class="about__title">Профессиональное оборудование и материалы</p>
+          <p class="about__descr">Мы заботимся о вас и постоянно улучшаем сервис, создавая комфортную обстановку. </p>
+
+          <p class="about__descr">Наш Диодный лазерный аппарат имеет Регистрационное удостоверение РосЗдравНадзора, что гарантирует его эффективность и безопасность для здоровья. </p>
+          <p class="about__descr"> Материалы для сахарной и восковой депиляции премиум-класса.</p>
+        </div>
+      </div>
+      <div class="about__item">
+        <div class="about__text">
+          <p class="about__title">Мастера</p>
+          <p class="about__descr">Мастера нашей студии имеют опыт работы не менее 3 лет, регулярно повышают квалификацию и имеют статус мастеров-универсалов. </p>
+          <p class="about__descr">Работа с клиентами выстраивается индивидуально, учитывая особенности кожи и типа волоса, что гарантирует правильно подобранные параметры лазера, материалы в работе и, конечно, идеальный результат.
+          </p>
+        </div>
+        <div class="swiper__border">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                <img src="img/master.png" alt="Наши мастера" class="swiper__img">
+               </div>
+               <div class="swiper-slide">
+                <img src="img/master.png" alt="Наши мастера" class="swiper__img">
+               </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="services">
+  <div class="container">
+    <h2 class="services__title">ВСЕ ДЛЯ ВАС</h2>
+    <ul class="services__list list-reset">
+      <li class="services__item">
+        <p class="services__number">01</p>
+        <p class="services__text"> <span>Чай/кофе/прохладительные напитки</span> </p>
+      </li>
+      <li class="services__item">
+        <p class="services__number services__number-red">02</p>
+        <p class="services__text">Одноразовые тапочки</p>
+      </li>
+      <li class="services__item">
+        <p class="services__number">03</p>
+        <p class="services__text">Wi-Fi / телевидение</p>
+      </li>
+      <li class="services__item">
+        <p class="services__number services__number-red">04</p>
+        <p class="services__text">Онлайн запись 24/7</p>
+      </li>
+      <li class="services__item">
+        <p class="services__number">05</p>
+        <p  class="services__text"> Заблаговременное напоминание о визите</p>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+      <section class="photo">
+  <div class="container">
+    <h2 class="visually-hidden">фото</h2>
+    <ul class="social list-reset">
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+        <img src="img/svg/insta.svg" alt="Инстаграмм" class="sotial__img">
+        </a>
+      </li>
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+        <img src="img/svg/telegram.svg" alt="Телеграмм" class="sotial__img">
+        </a>
+      </li>
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+        <img src="img/whatsapp.png" alt="Ватсап" class="sotial__img">
+        </a>
+      </li>
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+        <img src="img/svg/vk.svg" alt="В контакте" class="sotial__img">
+        </a>
+      </li>
+    </ul>
+    <ul class="photo__list list-reset">
+      <li class="photo__item">
+        <img src="img/card(3).png" alt="" class="photo__img">
+      </li>
+      <li class="photo__item">
+        <img src="img/card(4).png" alt="" class="photo__img">
+      </li>
+      <li class="photo__item">
+        <img src="img/card(5).png" alt="" class="photo__img">
+      </li>
+      <li class="photo__item">
+        <img src="img/card(6).png" alt="" class="photo__img">
+      </li>
+      <li class="photo__item">
+        <img src="img/card(3).png" alt="" class="photo__img">
+      </li>
+      <li class="photo__item">
+        <img src="img/card(4).png" alt="" class="photo__img">
+       </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="comfort">
+  <div class="container comfort__container">
+    <h2 class="comfort__title">БОЛЬШЕ КОМФОРТА</h2>
+    <ul class="comfort__list list-reset">
+      <li class="comfort__item">
+        <div class="comfort__text-box">
+          <img src="img/svg/check.svg" alt="Галочка">
+          <p class="comfort__text">Быстрый расчет</p>
+        </div>
+        <p class="comfort__descr">Помимо наличного и безналичного расчёта услуги можно оплатить по QR-коду даже во время процедуры</p>
+      </li>
+      <li class="comfort__item">
+        <div class="comfort__text-box">
+          <img src="img/svg/check.svg" alt="Галочка">
+          <p class="comfort__text">Кнопки вызова администратора</p>
+        </div>
+        <p class="comfort__descr">Они расположены на всех столах.</p>
+        <!-- <p class="comfort__descr">Администратор с радостью сделает вам чай\кофе или рассчитает вас заранее</p> -->
+      </li>
+      <li class="comfort__item">
+        <div class="comfort__text-box">
+          <img src="img/svg/check.svg" alt="Галочка">
+          <p class="comfort__text">Отзывы</p>
+        </div>
+
+        <p class="comfort__descr">Их так же можно написать, перейдя по QR-коду, который есть в студии</p>
+      </li>
+      <li class="comfort__item">
+        <div class="comfort__text-box">
+          <img src="img/svg/check.svg" alt="Галочка">
+          <p class="comfort__text">Чаевые</p>
+        </div>
+        <p class="comfort__descr">Мы сделали отдельный QR-код, где есть все наши сотрудники</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="feedback">
+  <div class="container">
+    <h2 class="feedback__title">Отзывы наших клиенотов</h2>
+    <div class="swiper__border feedback__border">
+      <div class="swiper feedback__swiper">
+        <div class="swiper-wrapper">
+           <div class="swiper-slide feedback__slide">
+            <img src="img/feedback.jpg" alt="" class="feedback__img">
+           </div>
+           <div class="swiper-slide feedback__slide">
+            <img src="img/feedback1.jpg" alt="" class="feedback__img">
+           </div>
+           <div class="swiper-slide feedback__slide">
+            <img src="img/feedback.jpg" alt="" class="feedback__img">
+           </div>
+           <div class="swiper-slide feedback__slide">
+            <img src="img/feedback1.jpg" alt="" class="feedback__img">
+           </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <ul class="list-reset">
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в инстаграмме">
+        <img src="img/svg/insta.svg" alt="Инстаграмм" class="sotial__img">
+        </a>
+      </li>
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в контакте">
+        <img src="img/svg/vk.svg" alt="Телеграмм" class="sotial__img">
+        </a>
+      </li>
+    </ul>
+    <p class="feedback__text">Больше отзывов</p>
+  </div>
+</section>
+
+      <section class="price">
+  <div class="container">
+    <h2 class="price__title">ПРАЙС</h2>
+    <p class="price__subtitle">Обращаем Ваше внимание:</p>
+    <p class="price__descr">
+      В стоимость комплексных процедур с покрытием включены снятие, покрытие, выравнивание, укрепление жёстким гелем при необходимости</p>
+      <p class="price__descr">
+        Если Вы опоздали более, чем на 15 минут, мастер вправе сократить количество запланированных услуг.</p>
+        <ul class="accordion__list list-reset">
+          <li class="accordion">
+            <div class="accordion__box">
+              <div class="accordion__title-box">
+                <p class="accordion__title">Депиляция</p>
+              </div>
+              <span class="accordion__icon"></span>
+            </div>
+            <button class="accordion__control btn-reset" aria-expanded="false"></button>
+          <div class="accordion__content" aria-hidden="true">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur vitae nulla earum aspernatur, voluptatem tempore ea dolorem ipsam numquam. Tempora officia minus doloribus minima assumenda dolore distinctio quas quos!</p>
+          </div>
+        </li>
+        <li class="accordion">
+          <div class="accordion__box">
+            <div class="accordion__title-box">
+              <p class="accordion__title">Депиляция</p>
+            </div>
+            <span class="accordion__icon"></span>
+          </div>
+          <button class="accordion__control btn-reset" aria-expanded="false"></button>
+        <div class="accordion__content" aria-hidden="true">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur vitae nulla earum aspernatur, voluptatem tempore ea dolorem ipsam numquam. Tempora officia minus doloribus minima assumenda dolore distinctio quas quos!</p>
+        </div>
+      </li>
+      <li class="accordion">
+        <div class="accordion__box">
+          <div class="accordion__title-box">
+            <p class="accordion__title">Депиляция</p>
+          </div>
+          <span class="accordion__icon"></span>
+        </div>
+        <button class="accordion__control btn-reset" aria-expanded="false"></button>
+      <div class="accordion__content" aria-hidden="true">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur vitae nulla earum aspernatur, voluptatem tempore ea dolorem ipsam numquam. Tempora officia minus doloribus minima assumenda dolore distinctio quas quos!</p>
+      </div>
+    </li>
+      </ul>
+      <p class="price__text-bottom">Ваша безопасность — основной приоритет нашей компании, поэтому мы строго соблюдаем все нормы
+        Санитарных требований РФ.</p>
+        <iframe class="price__vidio" width="900" height="500" src="https://www.youtube.com/embed/lEL7TolThmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</section>
+
+      <section class="contacts">
+  <div class="container">
+    <h3 class="contacts__title">Контакты</h3>
+    <div class="contacts__inner">
+      <div class="contacts__map"><iframe src="https://yandex.ru/map-widget/v1/?ll=37.758617%2C55.424720&mode=search&oid=60685953065&ol=biz&z=16.7" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+      <div class="contacts__contacts">
+        <p class="contacts__address"> <span>Адрес:</span> г. Домодедово, улица Дружбы, дом 2.
+        </p>
+        <a href="tel:89999160323" class="contacts__phone"> <span>Запись по тел:</span> 8 999 916 03 23</a>
+        <ul class="contacts__sotial-list list-reset">
+          <li class="contacts-social__item"><a href="#" target="_blank" class="contacts__sotial-link" aria-label="Наша страничка в Инстаграмм">
+            <img src="img/svg/insta.svg" alt="Инстаграмм" class="sotial__img">
+            </a>
+          </li>
+          <li class="contacts-social__item"><a href="#" target="_blank" class="contacts__sotial-link" aria-label="Наша страничка в Телеграмм">
+            <img src="img/svg/telegram.svg" alt="Телеграмм" class="sotial__img">
+            </a>
+          </li>
+          <li class="contacts-social__item"><a href="#" target="_blank" class="contacts__sotial-link" aria-label="Наша страничка в Контакте">
+            <img src="img/svg/vk.svg" alt="В контакте" class="sotial__img">
+            </a>
+          </li>
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+            <img src="img/whatsapp.png" alt="Ватсап" class="sotial__img">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+
+</section>
+
+      <section class="rules">
+  <div class="container">
+    <h2 class="visually-hidden">Правила</h2>
+    <div class="rules__inner">
+      <p class="rules__descr">Стоимость дизайна уточняйте у администратора, во избежании спорных ситуаций.</p>
+      <p class="rules__descr">Сложность выполнения процедуры может определить только мастер.</p>
+      <p class="rules__descr">Если у Вас наращенные ногти, предупредите об этом при записи.</p>
+      <p class="rules__descr">Если Вы планируете дизайн, ремонт или наращивание одного/нескольких ногтей или иную дополнительную услугу, предупредите об этом при записи. </p>
+      <p class="rules__descr">Если при онлайн записи Вы не можете выбрать нужную услугу, то на нее нет времени по заданным параметрам. Выберите другой день или мастера. </p>
+      <p class="rules__descr">Если Вы записались на маникюр без покрытия, то скорее всего мастер не успеет Вам сделать покрытие или дополнительные услуги.</p>
+      <p class="rules__descr">Выравнивание и укрепление ногтей входит в стоимость услуг с долговременным покрытием.</p>
+      <p class="rules__descr">Стоимость может быть выше, если Вы хотите совместить несколько техник дизайнов.</p>
+      <p class="rules__descr">В случае опоздания клиента, мастер выполняет от процедуры сколько успеет.Стоимость услуги при этом будет равна услуги указанной при записи.</p>
+      <p class="rules__descr">У нас ЗАПРЕЩЕНО распитие алкогольных напитков и употребление наркотических средств. А так же мы не обслуживаем клиентов находящихся в нетрезвом состоянии.</p>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <nav class="nav footer__nav" title="">
+      <ul class="nav__list list-reset">
+        <li class="nav__item footer__item">
+          <a href="#" class="nav__link">
+            Главная
+          </a>
+        </li>
+        <li class="nav__item footer__item">
+          <a href="#" class="nav__link">
+            О нас
+          </a>
+        </li>
+        <li class="nav__item footer__item">
+          <a href="#" class="nav__link">
+            Прайс
+          </a>
+        </li>
+        <li class="nav__item footer__item">
+          <a href="#" class="nav__link">
+            Все для вас
+          </a>
+        </li>
+        <li class="nav__item footer__item">
+          <a href="#" class="nav__link">
+            Больше комфорта
+          </a>
+        </li>
+        <li class="nav__item footer__item">
+          <a href="#" class="nav__link">
+            Отзывы
+          </a>
+        </li>
+        <li class="nav__item footer__item">
+          <a href="#" class="nav__link">
+            Контакты
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+    <p class="footer__text">Lazer <span>Space</span> </p>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
