@@ -16,22 +16,22 @@
 
 <body class="page__body">
   <div class="site-container">
-    <header class="header">
+    <header class="header" id="hero">
   <div class="container  header__container">
     <span class="header__logo">Домодедово</span>
     <nav class="nav" title="">
       <ul class="nav__list list-reset">
         <li class="nav__item">
-          <a href="#" class="nav__link">Прайс</a>
+          <a href="#price" class="nav__link">Прайс</a>
         </li>
         <li class="nav__item">
-          <a href="#" class="nav__link">Контакты</a>
+          <a href="#contacts" class="nav__link">Контакты</a>
         </li>
         <li class="nav__item">
-          <a href="#" class="nav__link">О нас</a>
+          <a href="#about" class="nav__link">О нас</a>
         </li>
         <li class="nav__item">
-          <a href="#" class="nav__link">Отзывы</a>
+          <a href="#feedback" class="nav__link">Отзывы</a>
         </li>
       </ul>
     </nav>
@@ -41,42 +41,23 @@
 </header>
 
     <main class="main">
-      <section class="text">
-  <div class="container">
-    <div class="hc-right">
-      <div class="form-block">
-
-          <div class="form-title">Акция для новых клиентов</div>
-          <div class="form-text">Получитe скидку 15% и бесплатную диагностику Вашегo компьютера</div>
-
-          <form action="telegram.php" method="post">
-              <input type="text" name="name" placeholder="Как вас зoвут?">
-              <input type="tel" name="phone" placeholder="Oставьтe свoй нoмep" required="">
-              <input type="text" name="email" placeholder="Ваш E-mail">
-  <button type="submit" class="send-button">Получить скидку</button>
-</form>
-
-      </div>
-  </div>
-  </div>
-</section>
 
       <section class="hero">
   <div class="container hero__container">
-    <ul class="social list-reset">
-      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+    <ul class="social list-reset hero__social">
+      <li class="social__item hero__social-item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Инстаграмме">
         <img src="img/svg/insta.svg" alt="Инстаграмм" class="sotial__img">
         </a>
       </li>
-      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+      <!-- <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Телеграмме">
         <img src="img/svg/telegram.svg" alt="Телеграмм" class="sotial__img">
         </a>
-      </li>
-      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+      </li> -->
+      <li class="social__item hero__social-item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Контакте">
         <img src="img/svg/vk.svg" alt="В контакте" class="sotial__img">
         </a>
       </li>
-      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+      <li class="social__item hero__social-item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Ватсапе">
         <img src="img/whatsapp.png" alt="Ватсап" class="sotial__img">
         </a>
       </li>
@@ -104,7 +85,7 @@
   </div>
 </section>
 
-      <section class="about">
+      <section class="about" id="about">
   <div class="container">
     <h2 class="visually-hidden">Секция о предоставлнии услуг</h2>
     <div class="about__list">
@@ -112,7 +93,6 @@
         <div class="about__text">
           <p class="about__title">Комфорт</p>
           <p class="about__descr">Мы заботимся о вас и постоянно улучшаем сервис, создавая комфортную обстановку. </p>
-
           <p class="about__descr">В нашей студии </p>
           <ul class="about__list-service">
             <li class="about__item-serice"> одноразовые тапочки для клиентов</li>
@@ -216,42 +196,42 @@
       <section class="photo">
   <div class="container">
     <h2 class="visually-hidden">фото</h2>
-    <ul class="social list-reset">
-      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+    <ul class="social list-reset photo__sotial">
+      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Инстаграмм">
         <img src="img/svg/insta.svg" alt="Инстаграмм" class="sotial__img">
         </a>
       </li>
-      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+      <!-- <li class="social__item photo__sotial-item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Телеграмм">
         <img src="img/svg/telegram.svg" alt="Телеграмм" class="sotial__img">
         </a>
-      </li>
-      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+      </li> -->
+      <li class="social__item photo__sotial-item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Ватсап">
         <img src="img/whatsapp.png" alt="Ватсап" class="sotial__img">
         </a>
       </li>
-      <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в Фейсбуке">
+      <li class="social__item photo__sotial-item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в контакте">
         <img src="img/svg/vk.svg" alt="В контакте" class="sotial__img">
         </a>
       </li>
     </ul>
     <ul class="photo__list list-reset">
       <li class="photo__item">
-        <img src="img/card(3).png" alt="" class="photo__img">
+        <img src="img/photo(1).jpg" alt="Фото мастеров" class="photo__img">
       </li>
       <li class="photo__item">
-        <img src="img/card(4).png" alt="" class="photo__img">
+        <img src="img/photo(2).jpg" alt="Фото мастеров" class="photo__img">
       </li>
       <li class="photo__item">
-        <img src="img/card(5).png" alt="" class="photo__img">
+        <img src="img/photo(3).jpg" alt="Фото мастеров" class="photo__img">
       </li>
       <li class="photo__item">
-        <img src="img/card(6).png" alt="" class="photo__img">
+        <img src="img/photo(4).jpg" alt="Фото мастеров" class="photo__img">
       </li>
       <li class="photo__item">
-        <img src="img/card(3).png" alt="" class="photo__img">
+        <img src="img/photo(5).jpg" alt="Фото мастеров" class="photo__img">
       </li>
       <li class="photo__item">
-        <img src="img/card(4).png" alt="" class="photo__img">
+        <img src="img/photo(6).jpg" alt="Фото мастеров" class="photo__img">
        </li>
     </ul>
   </div>
@@ -295,10 +275,11 @@
   </div>
 </section>
 
-      <section class="feedback">
-  <div class="container">
+      <section class="feedback" id="feedback">
+  <div class="container feedback__container">
+
     <h2 class="feedback__title">Отзывы наших клиенотов</h2>
-    <div class="swiper__border feedback__border">
+
       <div class="swiper feedback__swiper">
         <div class="swiper-wrapper">
            <div class="swiper-slide feedback__slide">
@@ -316,7 +297,7 @@
         </div>
         <div class="swiper-pagination"></div>
       </div>
-    </div>
+
     <ul class="list-reset">
       <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Наша страничка в инстаграмме">
         <img src="img/svg/insta.svg" alt="Инстаграмм" class="sotial__img">
@@ -331,7 +312,7 @@
   </div>
 </section>
 
-      <section class="price">
+      <section class="price" id="price">
   <div class="container">
     <h2 class="price__title">ПРАЙС</h2>
     <p class="price__subtitle">Обращаем Ваше внимание:</p>
@@ -383,11 +364,11 @@
   </div>
 </section>
 
-      <section class="contacts">
+      <section class="contacts" id="contacts">
   <div class="container">
     <h3 class="contacts__title">Контакты</h3>
     <div class="contacts__inner">
-      <div class="contacts__map"><iframe src="https://yandex.ru/map-widget/v1/?ll=37.758617%2C55.424720&mode=search&oid=60685953065&ol=biz&z=16.7" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+     <iframe class="contacts__map" src="https://yandex.ru/map-widget/v1/?ll=37.758617%2C55.424720&mode=search&oid=60685953065&ol=biz&z=16.7" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
       <div class="contacts__contacts">
         <p class="contacts__address"> <span>Адрес:</span> г. Домодедово, улица Дружбы, дом 2.
         </p>
@@ -397,10 +378,10 @@
             <img src="img/svg/insta.svg" alt="Инстаграмм" class="sotial__img">
             </a>
           </li>
-          <li class="contacts-social__item"><a href="#" target="_blank" class="contacts__sotial-link" aria-label="Наша страничка в Телеграмм">
+          <!-- <li class="contacts-social__item"><a href="#" target="_blank" class="contacts__sotial-link" aria-label="Наша страничка в Телеграмм">
             <img src="img/svg/telegram.svg" alt="Телеграмм" class="sotial__img">
             </a>
-          </li>
+          </li> -->
           <li class="contacts-social__item"><a href="#" target="_blank" class="contacts__sotial-link" aria-label="Наша страничка в Контакте">
             <img src="img/svg/vk.svg" alt="В контакте" class="sotial__img">
             </a>
@@ -411,7 +392,7 @@
           </li>
         </ul>
       </div>
-    </div>
+
     </div>
 
 </section>
@@ -440,37 +421,37 @@
     <nav class="nav footer__nav" title="">
       <ul class="nav__list list-reset">
         <li class="nav__item footer__item">
-          <a href="#" class="nav__link">
+          <a href="#hero" class="nav__link">
             Главная
           </a>
         </li>
         <li class="nav__item footer__item">
-          <a href="#" class="nav__link">
+          <a href="#about" class="nav__link">
             О нас
           </a>
         </li>
         <li class="nav__item footer__item">
-          <a href="#" class="nav__link">
+          <a href="#price" class="nav__link">
             Прайс
           </a>
         </li>
-        <li class="nav__item footer__item">
+        <!-- <li class="nav__item footer__item">
           <a href="#" class="nav__link">
             Все для вас
           </a>
-        </li>
-        <li class="nav__item footer__item">
+        </li> -->
+        <!-- <li class="nav__item footer__item">
           <a href="#" class="nav__link">
             Больше комфорта
           </a>
-        </li>
-        <li class="nav__item footer__item">
+        </li> -->
+        <!-- <li class="nav__item footer__item">
           <a href="#" class="nav__link">
             Отзывы
           </a>
-        </li>
+        </li> -->
         <li class="nav__item footer__item">
-          <a href="#" class="nav__link">
+          <a href="#contacts" class="nav__link">
             Контакты
           </a>
         </li>
