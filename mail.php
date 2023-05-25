@@ -3,8 +3,8 @@
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
-$token = "";
-$chat_id = "";
+$token = "6077215001:AAFGryqjW44qoTR6PRlOIyowriw3jKYwUAk";
+$chat_id = "-904664653";
 $arr = array(
   'Имя пользователя: ' => $name,
   'Телефон: ' => $phone,
