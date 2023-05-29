@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/slider.scss","components/slider.css"],"names":[],"mappings":"AACA;EACE,4BAAA;ACAF","file":"components/slider.css","sourcesContent":["\n.swiper-pagination-bullet {\n  background: var(--red-color);\n}\n",".swiper-pagination-bullet {\n  background: var(--red-color);\n}"]}
